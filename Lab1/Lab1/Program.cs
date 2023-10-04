@@ -9,9 +9,7 @@ namespace Lab1
         [STAThread]
         public static void Main()
         {
-            // ExponentialDistributionHelper distributionHelper = new ExponentialDistributionHelper(lambda: 9);
-            // NormalDistributionHelper distributionHelper = new NormalDistributionHelper(alpha: 0, sigma: 5);
-            EvenDistributionHelper distributionHelper = new EvenDistributionHelper(alpha: Math.Pow(5, 6), sigma: Math.Pow(2, 15), zeta: 1);
+            NormalDistributionHelper distributionHelper = new NormalDistributionHelper(alpha: 0, sigma: 5);
             
             SetUpDistribution(distributionHelper);
         }
